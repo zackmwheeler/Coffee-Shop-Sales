@@ -8,11 +8,17 @@ Creating an interactive dashboard to show revenue and transaction trends from a 
 ### Prepare the data:
 
 To begin, I created six new rows to add to the dataset. `Revenue`, `Month`, `Month Name`, `Weekday`, `Weekday Name`, and `Hour`
+
   `Revenue` just mulitipled `unit_price` and `transaction_qty` together.
+  
   `Month` used the formula `=MONTH(B2)`
+  
   `Month Name` used the formula `=TEXT(B2,"MMM")`
+  
   `Weekday` used the formula `=WEEKDAY(B2,2*)` *used 2 to have the weekday start on a Monday
+  
   `Weekday Name` used the formula `=TEXT(B2,"DDD")`
+  
   `Hour` used the formula `=HOUR(C2)`
 
 After this the data was ready to be used and created a few Pivot Tables.
