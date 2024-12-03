@@ -72,6 +72,7 @@ Sorted it in DESC order by 'count of `transaction_id`' and added a filter for on
 ## Dashboard:
 
 For this I hid the Pivot tables, all except the Top 15 Products one.
+
 Then formatted the remaining charts into a good order, hid Headings, Gridlines, and Formula Bar and added a slicer for the `store_location`. Now anyone would be able to see the information on any of the stores or any combination of them:
 
 ![image](https://github.com/user-attachments/assets/58c9bef9-0831-48db-bbcc-fd39cf38ed70)
